@@ -20,6 +20,6 @@ public class PetService {
     }
 
     public String getPetName() {
-        return "Test";
+        return name;
     }
 }

@@ -13,5 +13,6 @@ public class MoodGenerator {
     public String generateMoodMessage(String petName) {
         String mood = moods.get(random.nextInt(moods.size()));
         return petName + " is " + mood;
+
     }
 }
